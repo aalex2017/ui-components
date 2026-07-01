@@ -79,6 +79,7 @@ If you want full control over the tooltip content (custom markup, formatting, im
 	<div class="tooltip__content">
 		...
 	</div>
+</div>
 ```
 
 When a custom 'tooltip__content' element is provided, the library uses it instead of generating one automatically.
