@@ -2,6 +2,8 @@
 
 Tooltip is a lightweight vanilla JavaScript library that automatically creates tooltip buttons and displays contextual help without requiring any dependencies. It supports custom button templates, custom content markup, and multiple tooltips on the same page.
 
+![](demo.gif)
+
 ---
 
 ## 📦 Installation
