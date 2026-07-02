@@ -1,0 +1,16 @@
+.tooltip__content {
+	position: absolute;
+	left: calc(100% + 5px);
+	top: calc(100% + 5px);
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: max-content;
+    max-width: 1000px;
+	
+    transition: opacity 0.25s ease;
+	
+	z-index: 1000;
+}
