@@ -101,6 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 - An empty string for `...accept` means that any files are allowed.
 - An empty string for `...requiringThumbnail` means that a thumbnail is not needed.
+- Syntax for writing a string for `...accept` and `...requiringThumbnail` is the same as for `accept` html attribute (".txt, .png", "image/jpeg", "video/*").
 
 ---
 
