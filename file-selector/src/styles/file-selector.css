@@ -1,0 +1,8 @@
+.file-selector {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	position: relative;
+	
+	margin: 10px  0 0 40px;
+}

@@ -1,0 +1,48 @@
+.file-selector__trash-can {
+	position: absolute;
+	
+	top: 8px;
+	right: 8px;
+	
+	transform-origin: center;
+	
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	
+	background-color: #8a2be2;
+	opacity: 0.5;
+	
+	transition: opacity 2s ease, transform 0.2s ease;
+	
+	color: white;
+	
+	z-index: 10000;
+}
+
+.file-selector__trash-can::before,
+.file-selector__trash-can::after {
+	content: '';
+	
+	position: absolute;
+	
+	top: 50%;
+	left: 50%;
+	
+	width: 24px;
+	height: 3px;
+	
+	background: currentColor;
+	
+	border-radius: 3px;
+	
+	transform-origin: center;
+}
+
+.file-selector__trash-can::before {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.file-selector__trash-can::after {
+	transform: translate(-50%, -50%) rotate(-45deg);
+}

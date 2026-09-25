@@ -1,0 +1,7 @@
+.file-selector__input-wrapper {
+	display: flex;
+	flex-direction: row;
+	column-gap: 5px;
+	align-items: center;
+	flex-wrap: wrap;
+}
