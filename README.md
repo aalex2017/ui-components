@@ -11,3 +11,11 @@ Tooltip is a lightweight vanilla JavaScript library that automatically creates t
 ![](tooltip/demo.gif)
 
 ---
+
+## 2. File selector
+
+A library that extends the functionality for adding files to file inputs. It allows for reordering files and handles extension validation as well as thumbnail generation.
+
+---
+
+![](file-selector/demo.gif)
