@@ -1,0 +1,13 @@
+.file-selector__input {
+	
+}
+
+.file-selector__input:invalid {
+	outline: none;
+	border: 1px solid red;
+}
+
+.file-selector__input:focus {
+	outline: none;
+	border: 1px solid blue;
+}

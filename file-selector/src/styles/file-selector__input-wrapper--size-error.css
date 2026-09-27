@@ -1,0 +1,4 @@
+.file-selector__input-wrapper--size-error {
+	background-color: red;
+	--size-error: 'Size error ';
+}

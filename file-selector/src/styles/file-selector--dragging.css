@@ -1,0 +1,4 @@
+html.file-selector--dragging,
+html.file-selector--dragging * {
+	cursor: grabbing !important;
+}

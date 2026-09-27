@@ -1,0 +1,4 @@
+.file-selector--total-files-size-error {
+	box-shadow: inset 0 0 10px red;
+	--total-files-size-error: 'Total files size error ';
+}

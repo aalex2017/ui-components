@@ -1,0 +1,28 @@
+.file-selector__drag-handle {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: black;
+	padding: 6px 8px;
+	cursor: pointer;
+	
+	background: #ffffff;
+	border: 1px solid #e6e2db;
+	border-radius: 6px;
+	
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	
+	cursor: grab;
+}
+
+.file-selector__drag-handle:hover {
+	box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.7);
+}
+
+.file-selector__drag-handle::before {
+	content: "\22EE\22EE";
+}

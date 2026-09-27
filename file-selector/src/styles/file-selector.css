@@ -1,0 +1,23 @@
+.file-selector {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	position: relative;
+	
+	margin: 10px  0 0 40px;
+	
+	border-radius: 10px;
+	
+	padding: 10px;
+	
+	--total-size-error: '';
+	--total-files-size-error: '';
+	--total-thumbnails-size-error: '';
+}
+
+.file-selector--total-size-error::after				,
+.file-selector--total-files-size-error::after		,
+.file-selector--total-thumbnails-size-error::after
+{
+	content: var(--total-size-error) var(--total-files-size-error) var(--total-thumbnails-size-error);
+}

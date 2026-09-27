@@ -1,0 +1,4 @@
+.file-selector--total-thumbnails-size-error {
+	box-shadow: inset 0 0 10px red;
+	--total-thumbnails-size-error: 'Total thumbnails size error ';
+}

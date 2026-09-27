@@ -1,0 +1,4 @@
+.file-selector__trash-can--hidden {
+	opacity: 0;
+	pointer-events: none;
+}

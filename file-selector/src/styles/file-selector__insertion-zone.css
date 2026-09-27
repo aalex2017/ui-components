@@ -1,0 +1,10 @@
+.file-selector__insertion-zone {
+	border: none;
+	height: 10px;
+	background-color: transparent;
+	opacity: 0.9;
+	width: 80%;
+	z-index: 5;
+	
+	transition: background-color 0.2s ease, transform 0.2s ease;
+}

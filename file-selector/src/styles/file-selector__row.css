@@ -1,0 +1,9 @@
+.file-selector__row {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	width: 80%;
+}

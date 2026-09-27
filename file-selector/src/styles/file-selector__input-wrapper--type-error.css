@@ -1,0 +1,4 @@
+.file-selector__input-wrapper--type-error {
+	background-color: red;
+	--type-error: 'Type error ';
+}

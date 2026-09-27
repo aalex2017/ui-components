@@ -1,0 +1,16 @@
+.file-selector__input-wrapper {
+	display: flex;
+	flex-direction: row;
+	column-gap: 5px;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	--type-error: '';
+	--size-error: '';
+}
+
+.file-selector__input-wrapper--type-error::after	,
+.file-selector__input-wrapper--size-error::after
+{
+	content: var(--type-error) var(--size-error);
+}
