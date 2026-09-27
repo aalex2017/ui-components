@@ -1,6 +1,6 @@
 # 🧠 File Selector
 
-A library that extends the functionality for adding files to file inputs. It allows for reordering files and handles extension validation as well as thumbnail generation.
+A library that extends the functionality for adding files to file inputs. It allows for reordering files and handles extension and size validation as well as thumbnail generation.
 
 ![](demo.gif)
 
